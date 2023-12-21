@@ -16,6 +16,7 @@ filtered_data = filtered_data[(filtered_data['Longitude'] != 0) & (filtered_data
 # Create a new DataFrame without duplicates
 data_no_duplicates = filtered_data.drop_duplicates(subset=['Serial'])
 
+# Remove bad values from dataframe
 bad_values = (
     (data_no_duplicates['Longitude'] < -19) | (data_no_duplicates['Longitude'] > 55) |
     (data_no_duplicates['Latitude'] < -18) | (data_no_duplicates['Latitude'] > 59)
