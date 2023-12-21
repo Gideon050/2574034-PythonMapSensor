@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import geopandas as gpd
 from shapely.geometry import Point
+import _pyio
 
 # Load the dataset into a Pandas DataFrame
 data = pd.read_csv('GrowLocations.csv')
@@ -51,3 +52,6 @@ bad_data.to_csv('bad_values.csv', index=False)
 
 # Save cleaned data to a CSV file
 clean_data.to_csv('cleaned_data.csv', index=False)
+
+# Save cleaned data to a JSON file
+geo_data.to_file('cleaned_data.geojson', driver='GeoJSON')
