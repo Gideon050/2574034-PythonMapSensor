@@ -55,3 +55,5 @@ clean_data.to_csv('cleaned_data.csv', index=False)
 
 # Save cleaned data to a JSON file
 geo_data.to_file('cleaned_data.geojson', driver='GeoJSON')
+
+# Gideon Samuel - 2574034 - University of Dundee
