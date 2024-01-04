@@ -4,10 +4,18 @@ This Python script utilizes various libraries such as Pandas, Matplotlib, Geopan
 This script serves as a comprehensive tool for processing geographical sensor data, cleaning outliers, visualizing sensor locations on a map, and storing cleaned and structured data in different file formats for further analysis or applications.
 
 **List of Files**
-mapsensorplot.py
-MapSensorPlot.png
-GrowLocations.csv
-map7.png
-cleaned_data.csv
-bad_values.csv
-cleaned_data.geojson
+
+i.  mapsensorplot.py
+
+ii.  MapSensorPlot.png
+
+iii.  GrowLocations.csv
+
+iv.  map7.png
+
+v.  cleaned_data.csv
+
+vi.  bad_values.csv
+
+vii.  cleaned_data.geojson
+
